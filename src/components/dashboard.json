@@ -1,0 +1,35 @@
+[
+    {
+      "id": "0",
+      "tabs": ["My Labs", "Invited"],
+      "tab_num": 3,
+      "card_title": "Labs",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/lab_icon.svg",
+      "create_button": false,
+      "card_content": "labs.png"
+      
+
+    },
+    {
+      "id": "1",
+      "tabs": ["My Challenges", "Invited", "Following"],
+      "tab_num": 3,
+      "card_title": "Challenges",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/challenge_icon.svg",
+      "create_button": false,
+      "card_content": "challenges.png"
+      
+    },
+
+    {
+      "id": "2",
+      "tabs": ["My Projects", "Need to assess", "Invited"],
+      "tab_num": 1,
+      "card_title": "Project",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/project_icon.svg",
+      "create_button": true,
+      "card_content": "projects.png"
+      
+    }
+   
+  ]

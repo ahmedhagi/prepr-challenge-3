@@ -1,0 +1,532 @@
+
+
+
+.dashboard{
+    position: relative;
+    top:67px;
+    margin-bottom: 15px;
+    background: #f3f7fc;
+    max-height: 100vh; 
+    overflow-y: scroll;
+    display: block;
+    
+    
+}
+
+
+.dashboard .dashboard-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline;
+    padding-right: 5px;
+
+}
+
+.dashboard-heading a {
+    text-decoration: underline !important;
+    color: #27AE60;
+    
+}
+
+.dashboard-content{
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px #d6d6d6;
+    margin-top: 1rem;
+    margin-bottom: 56px;
+   
+   
+}
+
+.dashboard-content .card{
+    border-radius: 10px;
+    border: 1px solid rgb(219, 223, 226);
+    box-shadow: 0 5px 5px #babec1;
+    overflow: hidden;
+    border-bottom: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    height: calc(100% - 20px);
+    
+}
+
+.dashboard-content .card-heading{
+    padding: 16px 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    justify-items: center;
+    
+}
+
+.dashboard-content .project-card .card-heading{
+    flex: 1;
+}
+
+.dashboard-content .card-heading h2{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    line-height: normal;
+
+
+}
+
+.dashboard-content .card-heading ul{
+    font-size: 16px;
+    font-weight: 400;
+    flex-grow: 0.25;
+    border: 1px solid #D2D4DA;
+}
+
+
+.dashboard-content .card-heading .nav .nav-item {
+    border-bottom: 2px solid #D2D4DA;
+    border-right: 1px solid #D2D4DA;
+    text-align: center;
+    display: flex;
+    flex: auto;
+    background: #fff;
+    padding: 0;
+
+}
+
+.dashboard-content .card-heading .nav .nav-item .nav-link{
+    color: #D2D4DA;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px !important;
+    width: 100%;
+    justify-content: center;
+}
+
+.dashboard-content .card-heading .nav .nav-item .nav-link.active{
+    color:#27AE60;
+    
+}
+
+.dashboard-content .card-heading .nav .nav-item.active{
+    
+    border-bottom-color: #27AE60;
+}
+
+.dashboard-content p{
+    color: #727d92;
+    
+}
+
+.card-content {
+    padding: 16px 16px 32px;
+   
+
+}
+
+.card-content .challengeSection{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 16px 70px;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.card-content .circle-outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    background-color:#ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card-content .circle-outer:hover{
+    background-color:#c0ceea;
+}
+
+.card-content .circle-inner{
+
+    height: 130px;
+    width: 130px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.card-content .circle-inner p{
+   
+    font-size: 20px;
+    word-wrap: break-word;
+    color: #27AE60;
+    margin:auto;
+    position: absolute;
+
+}
+
+.card-content .circle-inner p span{
+    color: #000;
+    display:inline-block;
+    line-height: 1;
+    
+    
+}
+
+.card-content .circle-inner p span span{
+    color: #27AE60;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.card-content .project-list img{
+    height: 170px;
+    width: 230px;
+    
+}
+
+.card-content .clipboard{
+    display: block;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 24px;
+
+}
+
+ .db-btn{
+    font-size: 15px;
+    box-shadow: none;
+    padding: 8px;
+    color: #FFF;
+    border: 0px;
+    border-radius: 3px; 
+    background-color:#27ae60;
+    display: inline-block;
+   
+}
+
+.db-btn:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .2);
+    opacity: .9;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.continue-title{
+    font-size: 26px;
+    font-weight: 700;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.continue-section{
+    width: 100%;
+}
+
+.upcoming-card .card-content{
+    height: 600px;
+}
+
+.upcoming-challenge{
+    align-items: flex-start;
+    border-bottom: 1px solid #D2D4DA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 64px;
+    padding: 8px 0;
+}
+
+.upcoming-challenge h3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    overflow: hidden;
+}
+
+.upcoming-challenge p{
+    color: #DB3353;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.leaderboard-title, .leaderboard-title a{
+    
+    font-weight: 600;
+    font-size: 18px;
+    color: #27ae60;
+   
+}
+
+.leaderboard-title a {
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.achievement-title img{
+    display: inline-block;
+    padding-right: 0.25rem;
+    height: 20px;
+    width: 20px;
+}
+
+.card-content .achievement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+    margin: 40px 0;
+    
+
+}
+
+.card-content .achievement img{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    outline-color: #adadad;
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-width: 1px;
+
+}
+
+.card-content .achievement h3{
+    color: #13A859;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+
+}
+
+.card-content .achievement .ach-buttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 100px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.card-content .achievement .ach-buttons i
+{
+   margin-right: 0.25rem;
+}
+
+.card-content .achievement .ach-buttons .db-btn{
+    width: 140px
+}
+
+.card-content .achievement .ach-buttons .db-btn.share{
+    background: #498CCE;
+}
+
+
+.leaderboard.card-content  .form-select{
+    border-radius: 2px !important;
+    color: rgb(159, 159, 159) !important;
+    border: 1px solid rgb(219, 223, 226) !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+
+}
+
+.leaderboard.card-content  .form-select option{
+    text-overflow:clip;
+    overflow:hidden;
+}
+
+.leaderboard-card .card-heading{
+    padding-top: 10px;
+}
+
+.leaderboard-card .db-btn {
+    font-size: 13px;
+    padding: 8px 20px;
+    margin-right: 15px;
+
+}
+
+.leaderboard.card-content{
+    padding: 20px 20px;
+}
+.leaderboard.card-content .filters p{
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #8B8B8B;
+}
+
+
+.leaderboard.card-content .filters .clear-filter{
+    margin-bottom: 20px;
+}
+
+
+.leaderboard.card-content .filters a{
+    color: #727d92;
+
+}
+
+.leaderboard.card-content .leaderboard-table img{
+    max-height: 365px;
+    width: 100%;
+}
+
+
+.leaderboard.card-content .leaderboard-table{
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+
+}
+
+.bottom-card .card-heading{
+    padding: 0px;
+}
+
+.card-heading .bottom-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #27ae60;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+}
+
+.card-heading .bottom-title img{
+    display: inline-block;
+    padding-right: 0.25rem;
+    height: 20px;
+    width: 20px;
+}
+
+.card-heading .bottom-btn .db-btn{
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin-top: 0px;
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.bottom-card .bottom-nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    border-bottom: 0;
+   
+}
+
+.bottom-card .bottom-nav .nav-item{
+    text-align: center;
+    border-right: 2px solid #ddd;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-bottom: 4px solid #ddd;
+}
+
+
+.bottom-card .bottom-nav .nav-item .nav-link{
+    display: flex;
+    font-size: 14px;
+    color:#000;
+
+}
+
+.bottom-card .bottom-nav .nav-item:last-child{
+    border-right: 0;
+}
+
+.bottom-card .bottom-nav .nav-item.active {
+    border-bottom: 4px solid #239564;
+    
+}
+
+.bottom-card .bottom-nav .nav-item.active .nav-link.active{
+    color: #239564;
+  
+}
+
+.bottom-card .bottom-nav .nav-item.active .nav-link.active .tab-num{
+    display: block;
+    color: #FFF;
+    background-color: #00c851;
+    border-radius: 25px;
+    padding: 0 0.35rem;
+    font-size: 0.75rem;
+}
+
+.bottom-card .bottom-nav .nav-item .nav-link .tab-num{
+    display: none;
+}
+
+.bottom-card .card-content{
+    height: 600px;
+    padding: 0;
+    position: relative;
+}
+
+.bottom-card .card-content img{
+    width: 100%;
+}
+
+.bottom-card .card-content .card-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    width: 100%;
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+    border-top: 1px solid rgba(0,0,0,.125);
+
+}
+
+
+.bottom-card .card-content .card-bottom .db-btn{
+    margin: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
